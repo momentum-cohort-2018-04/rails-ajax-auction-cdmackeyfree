@@ -3,6 +3,7 @@
 <% end %>
 <h1>Listing Items</h1>
 <div id='bid--new'></div>
+<div id="form--new"></div>
 <table>
   <thead>
     <tr>
@@ -33,5 +34,4 @@
 </table>
 
 <br>
-
-<%= link_to 'New Item', new_item_path, remote:true  %>
+<%= link_to "New Item", new_item_path, remote: true, class: "btn btn-primary" %>

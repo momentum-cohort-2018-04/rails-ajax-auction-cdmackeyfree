@@ -1885,3 +1885,1141 @@ Processing by ItemsController#show as JS
 Completed 200 OK in 108ms (Views: 70.1ms | ActiveRecord: 1.1ms)
 
 
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:14 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (1.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (52.8ms)
+  Rendered items/show.js.erb (85.0ms)
+Completed 500 Internal Server Error in 201ms (ActiveRecord: 2.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352285099840'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352285099840'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352285152480'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:15 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (31.3ms)
+  Rendered items/show.js.erb (60.4ms)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352242727940'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352242727940'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352242835940'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:16 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (33.1ms)
+  Rendered items/show.js.erb (65.0ms)
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352306969960'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352306969960'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352307013320'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:17 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (38.9ms)
+  Rendered items/show.js.erb (70.3ms)
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352283754080'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352283754080'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352283797440'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:14:19 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 125ms (Views: 117.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:22 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (47.8ms)
+  Rendered items/show.js.erb (80.6ms)
+Completed 500 Internal Server Error in 153ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352297239320'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352297239320'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352307126480'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:23 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (30.0ms)
+  Rendered items/show.js.erb (59.8ms)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352255782580'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352255782580'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352294271320'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:24 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (33.2ms)
+  Rendered items/show.js.erb (64.3ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352291599960'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352291599960'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352308010920'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:24 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (34.6ms)
+  Rendered items/show.js.erb (65.6ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352290591500'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352290591500'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352284851340'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:24 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (30.5ms)
+  Rendered items/show.js.erb (59.6ms)
+Completed 500 Internal Server Error in 126ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352249624260'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352249624260'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352240923360'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:25 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (33.7ms)
+  Rendered items/show.js.erb (67.7ms)
+Completed 500 Internal Server Error in 135ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352284552640'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352284552640'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352285350200'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:21:11 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (3.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (196.9ms)
+Completed 200 OK in 415ms (Views: 280.1ms | ActiveRecord: 107.5ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:21:16 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (6.1ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (3.9ms)
+  Rendered items/show.js.erb (38.0ms)
+Completed 200 OK in 139ms (Views: 76.5ms | ActiveRecord: 14.3ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:21:16 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (1.5ms)
+  Rendered items/show.js.erb (37.2ms)
+Completed 200 OK in 116ms (Views: 76.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:21:18 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (41.6ms)
+  Rendered items/new.js.erb (76.1ms)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858a4e860>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307927620'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352291562260'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:21:19 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.6ms)
+  Rendered items/new.js.erb (62.4ms)
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857225540>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352295261820'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352295306040'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:22:05 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (86.5ms)
+Completed 200 OK in 254ms (Views: 233.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:08 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.4ms)
+  Rendered items/new.js.erb (64.4ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858082b60>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352291627600'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352291667360'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:08 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.6ms)
+  Rendered items/new.js.erb (59.6ms)
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857257860>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352295373020'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352290608740'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:12 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.6ms)
+  Rendered items/new.js.erb (61.8ms)
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85209f5e0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352243998680'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352252465480'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:13 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.2ms)
+  Rendered items/new.js.erb (59.6ms)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8573953d0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352290699360'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284495440'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:13 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.8ms)
+  Rendered items/new.js.erb (61.8ms)
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff855a893f0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352282912200'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352247411900'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:14 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (36.2ms)
+  Rendered items/new.js.erb (74.0ms)
+Completed 500 Internal Server Error in 137ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8527e6948>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352302546000'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352256282400'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:14 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (43.8ms)
+  Rendered items/new.js.erb (80.2ms)
+Completed 500 Internal Server Error in 169ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85175aef8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352247660140'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352283634560'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:14 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.3ms)
+  Rendered items/new.js.erb (70.6ms)
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8589082d0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307259280'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352291173020'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:15 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (35.8ms)
+  Rendered items/new.js.erb (64.6ms)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857092548>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352294435460'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352255812900'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:15 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (36.5ms)
+  Rendered items/new.js.erb (66.1ms)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8589d7008>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307683180'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352307695320'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:22:56 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (1.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 145ms (Views: 136.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:23:00 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.2ms)
+  Rendered items/new.js.erb (74.2ms)
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8526aa3b8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352255697240'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352255753220'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:23:00 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.0ms)
+  Rendered items/new.js.erb (59.0ms)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8589659f8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307452040'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352302736040'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:23:02 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (40.6ms)
+  Rendered items/new.js.erb (85.8ms)
+Completed 500 Internal Server Error in 189ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff855d33a60>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352284289080'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284326420'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:23:03 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (76.7ms)
+  Rendered items/new.js.erb (122.1ms)
+Completed 500 Internal Server Error in 189ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858a9fb48>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308102800'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352308141040'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:23:59 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 142ms (Views: 130.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:02 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.1ms)
+  Rendered items/new.js.erb (66.9ms)
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857081b80>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352294418100'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284125580'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:03 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.2ms)
+  Rendered items/new.js.erb (61.4ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff856acbf88>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352291415480'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352291451320'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:06 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (35.8ms)
+  Rendered items/new.js.erb (69.7ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8568e3928>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352290419200'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352290464580'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:07 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (43.6ms)
+  Rendered items/new.js.erb (85.4ms)
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858abc1d0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308154880'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352308205140'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:24:41 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 131ms (Views: 122.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:44 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (34.5ms)
+  Rendered items/new.js.erb (69.5ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8570697b0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352294352760'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284065120'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:45 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (41.6ms)
+  Rendered items/new.js.erb (78.3ms)
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85893a7f8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307376940'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352307424480'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:27:23 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 255ms (Views: 229.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:27:26 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (38.5ms)
+  Rendered items/new.js.erb (72.0ms)
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff855bc31a8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352283534960'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352283583880'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:27:26 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.2ms)
+  Rendered items/new.js.erb (67.2ms)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85753f280>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352291006480'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352307033840'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:29:25 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (2.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (66.4ms)
+Completed 200 OK in 270ms (Views: 246.4ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:28 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (38.2ms)
+  Rendered items/new.js.erb (74.3ms)
+Completed 500 Internal Server Error in 150ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8522aeb10>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352246541700'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352242937580'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:29 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.6ms)
+  Rendered items/new.js.erb (62.2ms)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857409550>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352296252320'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352296299760'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:49 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.4ms)
+  Rendered items/new.js.erb (66.1ms)
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85253de58>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352246809900'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352243267740'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:50 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.8ms)
+  Rendered items/new.js.erb (62.1ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85742ab38>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352296329940'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352290888700'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:29:51 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:20
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 114ms (Views: 105.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:54 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (34.9ms)
+  Rendered items/new.js.erb (67.3ms)
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858bdfeb8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308760440'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284638520'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:55 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.3ms)
+  Rendered items/new.js.erb (59.4ms)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8527820d8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352256128920'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352290652300'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:56 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.4ms)
+  Rendered items/new.js.erb (71.2ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858bbd3b8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308694020'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352294847680'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:56 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (35.9ms)
+  Rendered items/new.js.erb (68.1ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff852775590>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352295506260'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352295552020'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:57 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.5ms)
+  Rendered items/new.js.erb (61.5ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858b34658>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308399740'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352308445240'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:57 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (36.3ms)
+  Rendered items/new.js.erb (70.2ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8572244b0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352295279280'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352295341200'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:58 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.1ms)
+  Rendered items/new.js.erb (60.8ms)
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857750330>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352297964400'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352297968440'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:58 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.0ms)
+  Rendered items/new.js.erb (68.9ms)
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857158298>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352290514880'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352294884180'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:58 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (36.0ms)
+  Rendered items/new.js.erb (78.4ms)
+Completed 500 Internal Server Error in 165ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857734270>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352297914480'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352297987560'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:59 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (50.2ms)
+  Rendered items/new.js.erb (110.3ms)
+Completed 500 Internal Server Error in 183ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8570b3040>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352294518580'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284257060'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:31:05 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:20
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (60.2ms)
+Completed 200 OK in 243ms (Views: 217.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:31:09 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (41.3ms)
+  Rendered items/new.js.erb (76.5ms)
+Completed 200 OK in 152ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:31:09 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (3.9ms)
+  Rendered items/new.js.erb (32.7ms)
+Completed 200 OK in 105ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
