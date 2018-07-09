@@ -988,3 +988,2332 @@ Processing by ItemsController#show as HTML
 Completed 200 OK in 140ms (Views: 130.9ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-05-30 08:30:28 -0400
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "auction_ajax_development" does not exist
+):
+  
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:688:in `rescue in connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:683:in `connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.0) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-05-30 08:30:33 -0400
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "auction_ajax_development" does not exist
+):
+  
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:688:in `rescue in connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:683:in `connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.0) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (1108.3ms)[0m  [1m[35mCREATE DATABASE "auction_ajax_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (858.0ms)[0m  [1m[35mCREATE DATABASE "auction_ajax_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2018-05-30 08:31:38 -0400
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (133.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (43.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (7.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(460066688806753245)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateBids (20180525193726)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (62.9ms)[0m  [1m[35mCREATE TABLE "bids" ("id" bigserial primary key, "item_id" integer, "amount" decimal, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180525193726_create_bids.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (40.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180525193726"]]
+  ↳ bin/rails:9
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateItems (20180525193958)
+  [1m[35m (7.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (30.3ms)[0m  [1m[35mCREATE TABLE "items" ("id" bigserial primary key, "title" character varying, "artist" character varying, "description" text, "starting_bid" decimal, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180525193958_create_items.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180525193958"]]
+  ↳ bin/rails:9
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (3.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (32.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-30 12:32:00.760184"], ["updated_at", "2018-05-30 12:32:00.760184"]]
+  ↳ bin/rails:9
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(460066688806753245)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2018-05-30 08:32:04 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/Spoonflower/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  Rendered items/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 8131ms (Views: 8061.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 08:32:23 -0400
+Processing by ItemsController#new as HTML
+  Rendering items/new.html.erb within layouts/application
+  Rendered items/_form.html.erb (94.0ms)
+  Rendered items/new.html.erb within layouts/application (103.0ms)
+Completed 200 OK in 277ms (Views: 201.1ms | ActiveRecord: 11.1ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2018-05-30 08:33:30 -0400
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CuRDBOKFZW+0j2j0+r30DjOFtXD/ysbePovogxpVAZ4ylzZHAFlQSGGUYsrjRRE9WDelVqEkTIMtaSLt0ZCKZw==", "item"=>{"title"=>"Starry Night", "artist"=>"Picasso", "description"=>"stars and stuff", "starting_bid"=>"100", "image_url"=>"data:image/jpeg;base64,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"}, "commit"=>"Create Item"}
+Unpermitted parameter: :artist
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/items_controller.rb:22
+  [1m[36mItem Create (82.4ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "starting_bid", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Starry Night"], ["description", "stars and stuff"], ["starting_bid", "100.0"], ["image_url", "data:image/jpeg;base64,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"], ["created_at", "2018-05-30 12:33:31.023608"], ["updated_at", "2018-05-30 12:33:31.023608"]]
+  ↳ app/controllers/items_controller.rb:22
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/items_controller.rb:22
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mBid Exists (3.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 1], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (279.3ms)
+Completed 200 OK in 594ms (Views: 428.5ms | ActiveRecord: 104.8ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2018-05-30 08:33:35 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (29.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 1], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (49.1ms)
+Completed 200 OK in 178ms (Views: 141.0ms | ActiveRecord: 30.2ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:01:01 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (2.0ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 1], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 286ms (Views: 263.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:01:07 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 1], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 143ms (Views: 131.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:03:13 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (2.0ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 1], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 313ms (Views: 296.3ms | ActiveRecord: 2.8ms)
+
+
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:48
+  [1m[36mItem Create (0.7ms)[0m  [1m[32mINSERT INTO "items" ("title", "artist", "description", "starting_bid", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "Fuji from Inume Pass"], ["artist", "Katsushika Hokusai"], ["description", "Polychrome woodblock print; ink and color on paper"], ["starting_bid", "5000.0"], ["image_url", "https://images.metmuseum.org/CRDImages/as/web-large/DP141029.jpg"], ["created_at", "2018-05-30 13:08:45.332646"], ["updated_at", "2018-05-30 13:08:45.332646"]]
+  ↳ db/seeds.rb:48
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:48
+  [1m[36mItem Create (0.4ms)[0m  [1m[32mINSERT INTO "items" ("title", "artist", "description", "starting_bid", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "Lady at the Tea Table"], ["artist", "Mary Cassatt"], ["description", "Oil on canvas"], ["starting_bid", "15000.0"], ["image_url", "https://images.metmuseum.org/CRDImages/ap/web-large/DT516.jpg"], ["created_at", "2018-05-30 13:08:45.339767"], ["updated_at", "2018-05-30 13:08:45.339767"]]
+  ↳ db/seeds.rb:48
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:48
+  [1m[36mItem Create (0.4ms)[0m  [1m[32mINSERT INTO "items" ("title", "artist", "description", "starting_bid", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "Rue Eugène Moussoir at Moret: Winter"], ["artist", "Alfred Sisley"], ["description", "Oil on canvas"], ["starting_bid", "8000.0"], ["image_url", "https://images.metmuseum.org/CRDImages/ep/web-large/DT1907.jpg"], ["created_at", "2018-05-30 13:08:45.345385"], ["updated_at", "2018-05-30 13:08:45.345385"]]
+  ↳ db/seeds.rb:48
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:48
+  [1m[36mItem Create (0.4ms)[0m  [1m[32mINSERT INTO "items" ("title", "artist", "description", "starting_bid", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "Colombian Masked Figure Pendant"], ["artist", ""], ["description", "Gold"], ["starting_bid", "22000.0"], ["image_url", "https://images.metmuseum.org/CRDImages/ao/web-large/DP160743.jpg"], ["created_at", "2018-05-30 13:08:45.350482"], ["updated_at", "2018-05-30 13:08:45.350482"]]
+  ↳ db/seeds.rb:48
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:48
+  [1m[36mItem Create (0.4ms)[0m  [1m[32mINSERT INTO "items" ("title", "artist", "description", "starting_bid", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "Southern Gardens"], ["artist", "Paul Klee"], ["description", "Watercolor and ink on paper mounted on cardboard"], ["starting_bid", "71400.0"], ["image_url", "https://images.metmuseum.org/CRDImages/ma/web-large/DT229524.jpg"], ["created_at", "2018-05-30 13:08:45.355432"], ["updated_at", "2018-05-30 13:08:45.355432"]]
+  ↳ db/seeds.rb:48
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:48
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:16:31 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 1], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (87.1ms)
+Completed 200 OK in 756ms (Views: 726.3ms | ActiveRecord: 4.4ms)
+
+
+Started DELETE "/items/1" for 127.0.0.1 at 2018-05-30 09:16:42 -0400
+Processing by ItemsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wY27Tp0pn+r2aOWWlRETUgG8idD5LORbFjOu1zeMt+nDR3T8rVD6kyWQURdpPUd8/f3bZpYoRwrNHvHbyreRbQ==", "id"=>"1"}
+  [1m[36mItem Load (10.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/items_controller.rb:38
+  [1m[36mItem Destroy (15.2ms)[0m  [1m[31mDELETE FROM "items" WHERE "items"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/items_controller.rb:38
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/items_controller.rb:38
+Redirected to http://localhost:3000/items
+Completed 302 Found in 50ms (ActiveRecord: 30.6ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:16:42 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (43.2ms)
+Completed 200 OK in 228ms (Views: 215.1ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:30:04 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (59.2ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 4.1ms)
+
+
+  
+ActionView::Template::Error (Missing partial items/_new, application/_new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Spoonflower/Desktop/rails-ajax-auction-cdmackeyfree/app/views"
+):
+    35: 
+    36: <%= link_to 'New Item', new_item_path, remote:true  %>
+    37: 
+    38: <div id="form--new"><%= render 'new' %></div>
+  
+app/views/items/index.html.erb:38:in `_app_views_items_index_html_erb___556339841187815986_70352308631760'
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:30:36 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (29.2ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 3.1ms)
+
+
+  
+ActionView::Template::Error (Missing partial items/_form--new, application/_form--new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Spoonflower/Desktop/rails-ajax-auction-cdmackeyfree/app/views"
+):
+    35: 
+    36: <%= link_to 'New Item', new_item_path, remote:true  %>
+    37: 
+    38: <div id="form--new"><%= render "form--new" %></div>
+  
+app/views/items/index.html.erb:38:in `_app_views_items_index_html_erb___556339841187815986_70352290858680'
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:31:04 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (42.2ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 4.3ms)
+
+
+  
+ActionView::Template::Error (Missing partial items/_form--new, application/_form--new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Spoonflower/Desktop/rails-ajax-auction-cdmackeyfree/app/views"
+):
+    35: 
+    36: <%= link_to 'New Item', new_item_path, remote:true  %>
+    37: 
+    38: <%= render "form--new" %>
+  
+app/views/items/index.html.erb:38:in `_app_views_items_index_html_erb___556339841187815986_70352283517660'
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:32:43 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (1.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (63.4ms)
+Completed 200 OK in 230ms (Views: 209.2ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:32:48 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (11.2ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 314ms (Views: 58.7ms | ActiveRecord: 115.3ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:33:52 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (59.2ms)
+Completed 200 OK in 213ms (Views: 190.7ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:33:55 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (1.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 138ms (Views: 86.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:33:55 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 104ms (Views: 71.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:33:58 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 121ms (Views: 85.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:33:58 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 110ms (Views: 76.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:33:59 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 146ms (Views: 110.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:33:59 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 132ms (Views: 96.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:34:01 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 165ms (Views: 125.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:34:01 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 106ms (Views: 67.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2018-05-30 09:34:58 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 145ms (Views: 135.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:35:01 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 116ms (Views: 73.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 09:35:01 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (1.2ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 98ms (Views: 63.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:08:47 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (57.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (13.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (174.3ms)
+Completed 200 OK in 410ms (Views: 292.9ms | ActiveRecord: 73.0ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:08:52 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 149ms (Views: 101.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:08:52 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 114ms (Views: 81.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:08:54 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 155ms (Views: 102.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:08:55 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 139ms (Views: 103.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:08:55 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 211ms (Views: 171.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:08:55 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.html.erb within layouts/application
+  [1m[36mCACHE Bid Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 167ms (Views: 110.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:10:37 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:18
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (60.1ms)
+Completed 200 OK in 245ms (Views: 223.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:10:41 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (7.2ms)
+  Rendered items/show.js.erb (49.9ms)
+Completed 200 OK in 138ms (Views: 91.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:10:41 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (1.9ms)
+  Rendered items/show.js.erb (31.8ms)
+Completed 200 OK in 112ms (Views: 72.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:10:45 -0400
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:10:45 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (1.0ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (1.4ms)
+  Rendered items/show.js.erb (37.2ms)
+Completed 200 OK in 118ms (Views: 75.0ms | ActiveRecord: 1.4ms)
+
+
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.9ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (0.8ms)
+  Rendered items/show.js.erb (28.6ms)
+Completed 200 OK in 100ms (Views: 62.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/items/5" for 127.0.0.1 at 2018-05-30 11:10:47 -0400
+Started GET "/items/5" for 127.0.0.1 at 2018-05-30 11:10:47 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"5"}
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"5"}
+  [1m[36mItem Load (1.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (3.2ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (1.6ms)
+  Rendered items/show.js.erb (69.0ms)
+Completed 200 OK in 212ms (Views: 137.4ms | ActiveRecord: 4.6ms)
+
+
+  Rendered items/_bid.html.erb (1.1ms)
+  Rendered items/show.js.erb (34.4ms)
+Completed 200 OK in 214ms (Views: 108.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:11:18 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 128ms (Views: 119.3ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:11:21 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (2.3ms)
+  Rendered items/show.js.erb (37.7ms)
+Completed 200 OK in 119ms (Views: 75.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:11:21 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (1.5ms)
+  Rendered items/show.js.erb (33.4ms)
+Completed 200 OK in 108ms (Views: 70.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:14 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (1.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (52.8ms)
+  Rendered items/show.js.erb (85.0ms)
+Completed 500 Internal Server Error in 201ms (ActiveRecord: 2.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352285099840'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352285099840'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352285152480'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:15 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (31.3ms)
+  Rendered items/show.js.erb (60.4ms)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352242727940'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352242727940'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352242835940'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:16 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (33.1ms)
+  Rendered items/show.js.erb (65.0ms)
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352306969960'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352306969960'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352307013320'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:17 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (38.9ms)
+  Rendered items/show.js.erb (70.3ms)
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352283754080'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352283754080'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352283797440'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:14:19 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 125ms (Views: 117.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:22 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (47.8ms)
+  Rendered items/show.js.erb (80.6ms)
+Completed 500 Internal Server Error in 153ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352297239320'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352297239320'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352307126480'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:23 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (30.0ms)
+  Rendered items/show.js.erb (59.8ms)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352255782580'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352255782580'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352294271320'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:24 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (33.2ms)
+  Rendered items/show.js.erb (64.3ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352291599960'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352291599960'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352308010920'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:24 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (34.6ms)
+  Rendered items/show.js.erb (65.6ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352290591500'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352290591500'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352284851340'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:24 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (30.5ms)
+  Rendered items/show.js.erb (59.6ms)
+Completed 500 Internal Server Error in 126ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352249624260'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352249624260'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352240923360'
+Started GET "/items/3" for 127.0.0.1 at 2018-05-30 11:14:25 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (33.7ms)
+  Rendered items/show.js.erb (67.7ms)
+Completed 500 Internal Server Error in 135ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for :amount:Symbol):
+    2:     <%= form_with(model: @bid, remote:true) do |f| %>
+    3:         <h3>Your Bid <%= @item.title %></h3>
+    4:         <%= f.hidden_field :item_id %>
+    5:         <%= f.number_field :amount + 10 %>
+    6:         <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    7:     <% end %>
+    8:   </div>
+  
+app/views/items/_bid.html.erb:5:in `block in _app_views_items__bid_html_erb__4199966394640431554_70352284552640'
+app/views/items/_bid.html.erb:2:in `_app_views_items__bid_html_erb__4199966394640431554_70352284552640'
+app/views/items/show.js.erb:1:in `_app_views_items_show_js_erb__9283116816190442_70352285350200'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:21:11 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (3.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (196.9ms)
+Completed 200 OK in 415ms (Views: 280.1ms | ActiveRecord: 107.5ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:21:16 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (6.1ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (3.9ms)
+  Rendered items/show.js.erb (38.0ms)
+Completed 200 OK in 139ms (Views: 76.5ms | ActiveRecord: 14.3ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-05-30 11:21:16 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/items_controller.rb:44
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendering items/show.js.erb
+  Rendered items/_bid.html.erb (1.5ms)
+  Rendered items/show.js.erb (37.2ms)
+Completed 200 OK in 116ms (Views: 76.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:21:18 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (41.6ms)
+  Rendered items/new.js.erb (76.1ms)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858a4e860>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307927620'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352291562260'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:21:19 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.6ms)
+  Rendered items/new.js.erb (62.4ms)
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857225540>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352295261820'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352295306040'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:22:05 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (86.5ms)
+Completed 200 OK in 254ms (Views: 233.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:08 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.4ms)
+  Rendered items/new.js.erb (64.4ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858082b60>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352291627600'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352291667360'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:08 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.6ms)
+  Rendered items/new.js.erb (59.6ms)
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857257860>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352295373020'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352290608740'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:12 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.6ms)
+  Rendered items/new.js.erb (61.8ms)
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85209f5e0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352243998680'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352252465480'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:13 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.2ms)
+  Rendered items/new.js.erb (59.6ms)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8573953d0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352290699360'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284495440'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:13 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.8ms)
+  Rendered items/new.js.erb (61.8ms)
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff855a893f0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352282912200'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352247411900'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:14 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (36.2ms)
+  Rendered items/new.js.erb (74.0ms)
+Completed 500 Internal Server Error in 137ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8527e6948>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352302546000'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352256282400'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:14 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (43.8ms)
+  Rendered items/new.js.erb (80.2ms)
+Completed 500 Internal Server Error in 169ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85175aef8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352247660140'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352283634560'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:14 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.3ms)
+  Rendered items/new.js.erb (70.6ms)
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8589082d0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307259280'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352291173020'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:15 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (35.8ms)
+  Rendered items/new.js.erb (64.6ms)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857092548>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352294435460'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352255812900'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:22:15 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (36.5ms)
+  Rendered items/new.js.erb (66.1ms)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8589d7008>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307683180'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352307695320'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:22:56 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (1.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 145ms (Views: 136.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:23:00 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.2ms)
+  Rendered items/new.js.erb (74.2ms)
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8526aa3b8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352255697240'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352255753220'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:23:00 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.0ms)
+  Rendered items/new.js.erb (59.0ms)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8589659f8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307452040'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352302736040'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:23:02 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (40.6ms)
+  Rendered items/new.js.erb (85.8ms)
+Completed 500 Internal Server Error in 189ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff855d33a60>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352284289080'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284326420'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:23:03 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (76.7ms)
+  Rendered items/new.js.erb (122.1ms)
+Completed 500 Internal Server Error in 189ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858a9fb48>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308102800'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352308141040'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:23:59 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 142ms (Views: 130.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:02 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.1ms)
+  Rendered items/new.js.erb (66.9ms)
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857081b80>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352294418100'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284125580'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:03 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.2ms)
+  Rendered items/new.js.erb (61.4ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff856acbf88>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352291415480'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352291451320'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:06 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (35.8ms)
+  Rendered items/new.js.erb (69.7ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8568e3928>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352290419200'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352290464580'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:07 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (43.6ms)
+  Rendered items/new.js.erb (85.4ms)
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858abc1d0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308154880'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352308205140'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:24:41 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 131ms (Views: 122.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:44 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (34.5ms)
+  Rendered items/new.js.erb (69.5ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8570697b0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352294352760'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284065120'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:24:45 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (41.6ms)
+  Rendered items/new.js.erb (78.3ms)
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85893a7f8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352307376940'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352307424480'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:27:23 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 255ms (Views: 229.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:27:26 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (38.5ms)
+  Rendered items/new.js.erb (72.0ms)
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff855bc31a8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352283534960'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352283583880'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:27:26 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.2ms)
+  Rendered items/new.js.erb (67.2ms)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85753f280>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352291006480'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352307033840'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:29:25 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (2.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:19
+  [1m[36mBid Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (66.4ms)
+Completed 200 OK in 270ms (Views: 246.4ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:28 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (38.2ms)
+  Rendered items/new.js.erb (74.3ms)
+Completed 500 Internal Server Error in 150ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8522aeb10>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352246541700'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352242937580'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:29 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.6ms)
+  Rendered items/new.js.erb (62.2ms)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857409550>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352296252320'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352296299760'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:49 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (33.4ms)
+  Rendered items/new.js.erb (66.1ms)
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85253de58>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352246809900'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352243267740'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:50 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.8ms)
+  Rendered items/new.js.erb (62.1ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff85742ab38>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352296329940'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352290888700'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:29:51 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:20
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 114ms (Views: 105.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:54 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (34.9ms)
+  Rendered items/new.js.erb (67.3ms)
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858bdfeb8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308760440'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284638520'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:55 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (31.3ms)
+  Rendered items/new.js.erb (59.4ms)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8527820d8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352256128920'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352290652300'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:56 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.4ms)
+  Rendered items/new.js.erb (71.2ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858bbd3b8>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308694020'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352294847680'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:56 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (35.9ms)
+  Rendered items/new.js.erb (68.1ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff852775590>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352295506260'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352295552020'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:57 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.5ms)
+  Rendered items/new.js.erb (61.5ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff858b34658>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352308399740'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352308445240'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:57 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (36.3ms)
+  Rendered items/new.js.erb (70.2ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8572244b0>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352295279280'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352295341200'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:58 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (32.1ms)
+  Rendered items/new.js.erb (60.8ms)
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857750330>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352297964400'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352297968440'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:58 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (37.0ms)
+  Rendered items/new.js.erb (68.9ms)
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857158298>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352290514880'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352294884180'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:58 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (36.0ms)
+  Rendered items/new.js.erb (78.4ms)
+Completed 500 Internal Server Error in 165ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff857734270>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352297914480'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352297987560'
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:29:59 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (50.2ms)
+  Rendered items/new.js.erb (110.3ms)
+Completed 500 Internal Server Error in 183ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007ff8570b3040>):
+    1: <%= form_for(model: @item, remote:true) do |f| %>
+    2:   <% if @item.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+  
+app/views/items/_form.html.erb:1:in `_app_views_items__form_html_erb__3832857006649436154_70352294518580'
+app/views/items/new.js.erb:1:in `_app_views_items_new_js_erb___3352836997660244975_70352284257060'
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:31:05 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:20
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (60.2ms)
+Completed 200 OK in 243ms (Views: 217.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:31:09 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (41.3ms)
+  Rendered items/new.js.erb (76.5ms)
+Completed 200 OK in 152ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:31:09 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (3.9ms)
+  Rendered items/new.js.erb (32.7ms)
+Completed 200 OK in 105ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:36:28 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:20
+  [1m[36mBid Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 5285ms (Views: 5258.8ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:36:36 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (5.3ms)
+  Rendered items/new.js.erb (37.4ms)
+Completed 200 OK in 120ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:36:37 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (7.0ms)
+  Rendered items/new.js.erb (40.9ms)
+Completed 200 OK in 124ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:37:36 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:22
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (54.9ms)
+Completed 200 OK in 207ms (Views: 185.2ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:37:39 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (11.0ms)
+  Rendered items/new.js.erb (46.9ms)
+Completed 200 OK in 127ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:37:39 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (4.0ms)
+  Rendered items/new.js.erb (34.7ms)
+Completed 200 OK in 104ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:44:22 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.0ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:22
+  [1m[36mBid Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (1.2ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (58.5ms)
+Completed 200 OK in 240ms (Views: 220.7ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:44:25 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (8.6ms)
+  Rendered items/new.js.erb (41.4ms)
+Completed 200 OK in 120ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:44:25 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (4.2ms)
+  Rendered items/new.js.erb (34.1ms)
+Completed 200 OK in 109ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:44:43 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:22
+  [1m[36mBid Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 127ms (Views: 116.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:44:46 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (5.8ms)
+  Rendered items/new.js.erb (38.3ms)
+Completed 200 OK in 114ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:44:46 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (9.2ms)
+  Rendered items/new.js.erb (54.6ms)
+Completed 200 OK in 125ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2018-05-30 11:45:02 -0400
+Started POST "/items" for 127.0.0.1 at 2018-05-30 11:45:02 -0400
+Processing by ItemsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZvQjUBARKdYy+KD8C0sgrZOrxvLi9KG40YD/hpp8vPJeh1YT8s0c8efjqsISs8We+BnW1LwaK+XCYjXoUbk3Cw==", "item"=>{"artist"=>"Picasso", "description"=>"blah blah blah", "starting_bid"=>"100", "image_url"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGR0bGBgXGR4eHxsbGhsdIBsYGxsdHSggGhomGx0YITUjJSorLi4uGCIzODMtNygtLisBCgoKDg0OGxAQGy0lICYvLS8tLS0tLS0tLS0vLS0tLS0tLS8tLS0tLS0tLS0tLTUtLS0tLS0tLS0tLS0tLS0tLf/AABEIAMwA9wMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAQIHAAj/xABIEAABAgQEAwUGBAMGAwcFAAABAhEAAyExBBJBUQUiYRNxgZGhBgcyQrHwFFLB0SNi4TNygpLS8RVjshYXJENEU7M1VHOTov/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwQABQb/xAAuEQACAgICAQQABAYDAQAAAAAAAQIRAyESMUEEEyJRMmFxwQUUgZGhsULR8SP/2gAMAwEAAhEDEQA/AL77QcZRg5JnTEqUkEBks7q7yBFVV71pHy4eafFI/UwX711AYEAm81I9FH9I42lI/KO+nhYCLYsSlG2TnOnR1L/vblOwwy/GYn9oLHvEWa/hQkM/NNq2jAIJrHMOFyUrm7gJUogEuwSasHcAtSLNw7hiX+M8tVBncs4TlFy2g/ND5I4sUHKXgRTnJpIsOI95M5IBGESxDg9oaj/LEKfelN1wiR/jV/ogHF4IIOdBCQUkk1DsElIqSXqzGwvFP4jKCJyrsTQgDMx1qRWBhWLKlKK0dKc4tpl+X705umGR4rV/pEEyfeLPLvhpQI0M0vWzBooHDnRMSQo0Ov8Au3fFsxGJBfKn4nJcAUWw+I6C3cBD5owx1ULBGcpf8q/UPme9Cak5ThUg7FZ/0xuPefN/+0T/AJz/AKYoPtCp5nKUqIYOA7tr39YzhWSoZkqruSz6OGIYmn+0WWDG1tCe7P7OnyPbicsZhhU5d+0OtLZd9bRtM9t5g/8ATpJqwz3bwq/SF"}, "commit"=>"Create Item"}
+Unpermitted parameter: :artist
+  [1m[35m (26.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/items_controller.rb:22
+  [1m[35m (23.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/items_controller.rb:22
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (190.0ms)
+  Rendered items/new.js.erb (229.6ms)
+Completed 200 OK in 386ms (Views: 294.5ms | ActiveRecord: 50.1ms)
+
+
+Processing by ItemsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZvQjUBARKdYy+KD8C0sgrZOrxvLi9KG40YD/hpp8vPJeh1YT8s0c8efjqsISs8We+BnW1LwaK+XCYjXoUbk3Cw==", "item"=>{"artist"=>"Picasso", "description"=>"blah blah blah", "starting_bid"=>"100", "image_url"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGR0bGBgXGR4eHxsbGhsdIBsYGxsdHSggGhomGx0YITUjJSorLi4uGCIzODMtNygtLisBCgoKDg0OGxAQGy0lICYvLS8tLS0tLS0tLS0vLS0tLS0tLS8tLS0tLS0tLS0tLTUtLS0tLS0tLS0tLS0tLS0tLf/AABEIAMwA9wMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAQIHAAj/xABIEAABAgQEAwUGBAMGAwcFAAABAhEAAyExBBJBUQUiYRNxgZGhBgcyQrHwFFLB0SNi4TNygpLS8RVjshYXJENEU7M1VHOTov/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwQABQb/xAAuEQACAgICAQQABAYDAQAAAAAAAQIRAyESMUEEEyJRMmFxwQUUgZGhsULR8SP/2gAMAwEAAhEDEQA/AL77QcZRg5JnTEqUkEBks7q7yBFVV71pHy4eafFI/UwX711AYEAm81I9FH9I42lI/KO+nhYCLYsSlG2TnOnR1L/vblOwwy/GYn9oLHvEWa/hQkM/NNq2jAIJrHMOFyUrm7gJUogEuwSasHcAtSLNw7hiX+M8tVBncs4TlFy2g/ND5I4sUHKXgRTnJpIsOI95M5IBGESxDg9oaj/LEKfelN1wiR/jV/ogHF4IIOdBCQUkk1DsElIqSXqzGwvFP4jKCJyrsTQgDMx1qRWBhWLKlKK0dKc4tpl+X705umGR4rV/pEEyfeLPLvhpQI0M0vWzBooHDnRMSQo0Ov8Au3fFsxGJBfKn4nJcAUWw+I6C3cBD5owx1ULBGcpf8q/UPme9Cak5ThUg7FZ/0xuPefN/+0T/AJz/AKYoPtCp5nKUqIYOA7tr39YzhWSoZkqruSz6OGIYmn+0WWDG1tCe7P7OnyPbicsZhhU5d+0OtLZd9bRtM9t5g/8ATpJqwz3bwq/SF"}, "commit"=>"Create Item"}
+Unpermitted parameter: :artist
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/items_controller.rb:22
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/items_controller.rb:22
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (7.8ms)
+  Rendered items/new.js.erb (47.7ms)
+Completed 200 OK in 119ms (Views: 110.5ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2018-05-30 11:45:08 -0400
+Started POST "/items" for 127.0.0.1 at 2018-05-30 11:45:08 -0400
+Processing by ItemsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BChDOHWEgm0GfszvRLI1Sio71/eK22pnvtO0rSWpcJc8WzZ7l1i3StNlxtFdStB5QYnH0dQ14DqtMX7D7mz7bg==", "item"=>{"artist"=>"", "description"=>"blah blah blah", "starting_bid"=>"100", "image_url"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGR0bGBgXGR4eHxsbGhsdIBsYGxsdHSggGhomGx0YITUjJSorLi4uGCIzODMtNygtLisBCgoKDg0OGxAQGy0lICYvLS8tLS0tLS0tLS0vLS0tLS0tLS8tLS0tLS0tLS0tLTUtLS0tLS0tLS0tLS0tLS0tLf/AABEIAMwA9wMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAQIHAAj/xABIEAABAgQEAwUGBAMGAwcFAAABAhEAAyExBBJBUQUiYRNxgZGhBgcyQrHwFFLB0SNi4TNygpLS8RVjshYXJENEU7M1VHOTov/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwQABQb/xAAuEQACAgICAQQABAYDAQAAAAAAAQIRAyESMUEEEyJRMmFxwQUUgZGhsULR8SP/2gAMAwEAAhEDEQA/AL77QcZRg5JnTEqUkEBks7q7yBFVV71pHy4eafFI/UwX711AYEAm81I9FH9I42lI/KO+nhYCLYsSlG2TnOnR1L/vblOwwy/GYn9oLHvEWa/hQkM/NNq2jAIJrHMOFyUrm7gJUogEuwSasHcAtSLNw7hiX+M8tVBncs4TlFy2g/ND5I4sUHKXgRTnJpIsOI95M5IBGESxDg9oaj/LEKfelN1wiR/jV/ogHF4IIOdBCQUkk1DsElIqSXqzGwvFP4jKCJyrsTQgDMx1qRWBhWLKlKK0dKc4tpl+X705umGR4rV/pEEyfeLPLvhpQI0M0vWzBooHDnRMSQo0Ov8Au3fFsxGJBfKn4nJcAUWw+I6C3cBD5owx1ULBGcpf8q/UPme9Cak5ThUg7FZ/0xuPefN/+0T/AJz/AKYoPtCp5nKUqIYOA7tr39YzhWSoZkqruSz6OGIYmn+0WWDG1tCe7P7OnyPbicsZhhU5d+0OtLZd9bRtM9t5g/8ATpJqwz3bwq/SF"}, "commit"=>"Create Item"}
+Processing by ItemsController#create as JS
+Unpermitted parameter: :artist
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BChDOHWEgm0GfszvRLI1Sio71/eK22pnvtO0rSWpcJc8WzZ7l1i3StNlxtFdStB5QYnH0dQ14DqtMX7D7mz7bg==", "item"=>{"artist"=>"", "description"=>"blah blah blah", "starting_bid"=>"100", "image_url"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGR0bGBgXGR4eHxsbGhsdIBsYGxsdHSggGhomGx0YITUjJSorLi4uGCIzODMtNygtLisBCgoKDg0OGxAQGy0lICYvLS8tLS0tLS0tLS0vLS0tLS0tLS8tLS0tLS0tLS0tLTUtLS0tLS0tLS0tLS0tLS0tLf/AABEIAMwA9wMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAQIHAAj/xABIEAABAgQEAwUGBAMGAwcFAAABAhEAAyExBBJBUQUiYRNxgZGhBgcyQrHwFFLB0SNi4TNygpLS8RVjshYXJENEU7M1VHOTov/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwQABQb/xAAuEQACAgICAQQABAYDAQAAAAAAAQIRAyESMUEEEyJRMmFxwQUUgZGhsULR8SP/2gAMAwEAAhEDEQA/AL77QcZRg5JnTEqUkEBks7q7yBFVV71pHy4eafFI/UwX711AYEAm81I9FH9I42lI/KO+nhYCLYsSlG2TnOnR1L/vblOwwy/GYn9oLHvEWa/hQkM/NNq2jAIJrHMOFyUrm7gJUogEuwSasHcAtSLNw7hiX+M8tVBncs4TlFy2g/ND5I4sUHKXgRTnJpIsOI95M5IBGESxDg9oaj/LEKfelN1wiR/jV/ogHF4IIOdBCQUkk1DsElIqSXqzGwvFP4jKCJyrsTQgDMx1qRWBhWLKlKK0dKc4tpl+X705umGR4rV/pEEyfeLPLvhpQI0M0vWzBooHDnRMSQo0Ov8Au3fFsxGJBfKn4nJcAUWw+I6C3cBD5owx1ULBGcpf8q/UPme9Cak5ThUg7FZ/0xuPefN/+0T/AJz/AKYoPtCp5nKUqIYOA7tr39YzhWSoZkqruSz6OGIYmn+0WWDG1tCe7P7OnyPbicsZhhU5d+0OtLZd9bRtM9t5g/8ATpJqwz3bwq/SF"}, "commit"=>"Create Item"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Unpermitted parameter: :artist
+  ↳ app/controllers/items_controller.rb:22
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/items_controller.rb:22
+  [1m[35m (1.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/items_controller.rb:22
+  [1m[35m (1.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/items_controller.rb:22
+  Rendering items/new.js.erb
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (5.9ms)
+  Rendered items/_form.html.erb (3.5ms)
+  Rendered items/new.js.erb (86.9ms)
+  Rendered items/new.js.erb (47.9ms)
+Completed 200 OK in 190ms (Views: 176.5ms | ActiveRecord: 1.2ms)
+
+
+Completed 200 OK in 188ms (Views: 140.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:45:42 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (1.4ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:22
+  [1m[36mBid Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 158ms (Views: 144.7ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:45:45 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (3.9ms)
+  Rendered items/new.js.erb (38.7ms)
+Completed 200 OK in 113ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:45:45 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (4.7ms)
+  Rendered items/new.js.erb (35.1ms)
+Completed 200 OK in 109ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2018-05-30 11:45:59 -0400
+Started POST "/items" for 127.0.0.1 at 2018-05-30 11:45:59 -0400
+Processing by ItemsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NrjXIIpy4JYTjxWkrvVywn6dArAV78TWuXrT7c9KCjgOy6JjaK7VscaUH5q3DZfxFS8SlksBTouqmBmDBI+BwQ==", "item"=>{"artist"=>"Picasso", "description"=>"adfsf", "starting_bid"=>"100", "image_url"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGR0bGBgXGR4eHxsbGhsdIBsYGxsdHSggGhomGx0YITUjJSorLi4uGCIzODMtNygtLisBCgoKDg0OGxAQGy0lICYvLS8tLS0tLS0tLS0vLS0tLS0tLS8tLS0tLS0tLS0tLTUtLS0tLS0tLS0tLS0tLS0tLf/AABEIAMwA9wMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAQIHAAj/xABIEAABAgQEAwUGBAMGAwcFAAABAhEAAyExBBJBUQUiYRNxgZGhBgcyQrHwFFLB0SNi4TNygpLS8RVjshYXJENEU7M1VHOTov/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwQABQb/xAAuEQACAgICAQQABAYDAQAAAAAAAQIRAyESMUEEEyJRMmFxwQUUgZGhsULR8SP/2gAMAwEAAhEDEQA/AL77QcZRg5JnTEqUkEBks7q7yBFVV71pHy4eafFI/UwX711AYEAm81I9FH9I42lI/KO+nhYCLYsSlG2TnOnR1L/vblOwwy/GYn9oLHvEWa/hQkM/NNq2jAIJrHMOFyUrm7gJUogEuwSasHcAtSLNw7hiX+M8tVBncs4TlFy2g/ND5I4sUHKXgRTnJpIsOI95M5IBGESxDg9oaj/LEKfelN1wiR/jV/ogHF4IIOdBCQUkk1DsElIqSXqzGwvFP4jKCJyrsTQgDMx1qRWBhWLKlKK0dKc4tpl+X705umGR4rV/pEEyfeLPLvhpQI0M0vWzBooHDnRMSQo0Ov8Au3fFsxGJBfKn4nJcAUWw+I6C3cBD5owx1ULBGcpf8q/UPme9Cak5ThUg7FZ/0xuPefN/+0T/AJz/AKYoPtCp5nKUqIYOA7tr39YzhWSoZkqruSz6OGIYmn+0WWDG1tCe7P7OnyPbicsZhhU5d+0OtLZd9bRtM9t5g/8ATpJqwz3bwq/SF"}, "commit"=>"Create Item"}
+Unpermitted parameter: :artist
+Processing by ItemsController#create as JS
+  [1m[35m (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/items_controller.rb:22
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NrjXIIpy4JYTjxWkrvVywn6dArAV78TWuXrT7c9KCjgOy6JjaK7VscaUH5q3DZfxFS8SlksBTouqmBmDBI+BwQ==", "item"=>{"artist"=>"Picasso", "description"=>"adfsf", "starting_bid"=>"100", "image_url"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGR0bGBgXGR4eHxsbGhsdIBsYGxsdHSggGhomGx0YITUjJSorLi4uGCIzODMtNygtLisBCgoKDg0OGxAQGy0lICYvLS8tLS0tLS0tLS0vLS0tLS0tLS8tLS0tLS0tLS0tLTUtLS0tLS0tLS0tLS0tLS0tLf/AABEIAMwA9wMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAQIHAAj/xABIEAABAgQEAwUGBAMGAwcFAAABAhEAAyExBBJBUQUiYRNxgZGhBgcyQrHwFFLB0SNi4TNygpLS8RVjshYXJENEU7M1VHOTov/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwQABQb/xAAuEQACAgICAQQABAYDAQAAAAAAAQIRAyESMUEEEyJRMmFxwQUUgZGhsULR8SP/2gAMAwEAAhEDEQA/AL77QcZRg5JnTEqUkEBks7q7yBFVV71pHy4eafFI/UwX711AYEAm81I9FH9I42lI/KO+nhYCLYsSlG2TnOnR1L/vblOwwy/GYn9oLHvEWa/hQkM/NNq2jAIJrHMOFyUrm7gJUogEuwSasHcAtSLNw7hiX+M8tVBncs4TlFy2g/ND5I4sUHKXgRTnJpIsOI95M5IBGESxDg9oaj/LEKfelN1wiR/jV/ogHF4IIOdBCQUkk1DsElIqSXqzGwvFP4jKCJyrsTQgDMx1qRWBhWLKlKK0dKc4tpl+X705umGR4rV/pEEyfeLPLvhpQI0M0vWzBooHDnRMSQo0Ov8Au3fFsxGJBfKn4nJcAUWw+I6C3cBD5owx1ULBGcpf8q/UPme9Cak5ThUg7FZ/0xuPefN/+0T/AJz/AKYoPtCp5nKUqIYOA7tr39YzhWSoZkqruSz6OGIYmn+0WWDG1tCe7P7OnyPbicsZhhU5d+0OtLZd9bRtM9t5g/8ATpJqwz3bwq/SF"}, "commit"=>"Create Item"}
+Unpermitted parameter: :artist
+  [1m[35m (2.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/items_controller.rb:22
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/items_controller.rb:22
+  Rendering items/new.js.erb
+  [1m[35m (35.6ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/items_controller.rb:22
+  Rendered items/_form.html.erb (8.3ms)
+  Rendered items/new.js.erb (82.0ms)
+  Rendering items/new.js.erb
+Completed 200 OK in 150ms (Views: 136.2ms | ActiveRecord: 3.9ms)
+
+
+  Rendered items/_form.html.erb (5.2ms)
+  Rendered items/new.js.erb (41.1ms)
+Completed 200 OK in 182ms (Views: 86.1ms | ActiveRecord: 36.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-30 11:46:28 -0400
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/items/index.html.erb:22
+  [1m[36mBid Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 3], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 4], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 5], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  [1m[36mBid Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = $1 LIMIT $2[0m  [["item_id", 6], ["LIMIT", 1]]
+  ↳ app/models/item.rb:9
+  Rendered items/index.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 170ms (Views: 160.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:46:31 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (9.7ms)
+  Rendered items/new.js.erb (46.5ms)
+Completed 200 OK in 121ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-05-30 11:46:31 -0400
+Processing by ItemsController#new as JS
+  Rendering items/new.js.erb
+  Rendered items/_form.html.erb (4.8ms)
+  Rendered items/new.js.erb (34.6ms)
+Completed 200 OK in 108ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
